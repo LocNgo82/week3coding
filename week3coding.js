@@ -151,6 +151,8 @@ console.log("function willBuyDrink: "+willBuyDrink(false, 20));
 // test isHotOutside = false, moneyInPocket < 10.5
 console.log("function willBuyDrink: "+willBuyDrink(false, 5));
 
+// 13. Create a function findSmallest that find the smallest values in an array.
+// The function parameter can be numbers array or strings array.
 function findSmallest(list) {
     let smallest = list[0];
     for (let i=1; i<list.length; i++) {
