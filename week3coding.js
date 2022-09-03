@@ -151,7 +151,7 @@ console.log("function willBuyDrink: "+willBuyDrink(false, 20));
 // test isHotOutside = false, moneyInPocket < 10.5
 console.log("function willBuyDrink: "+willBuyDrink(false, 5));
 
-
+function findSmallest(list) {
     let smallest = list[0];
     for (let i=1; i<list.length; i++) {
         if (list[i] < smallest) {
